@@ -94,6 +94,28 @@ body {
     }
 }
 
+h3 {
+    color: $block-heading;
+    font-size: 1.5em;
+    font-weight: 350;
+    margin: 0;
+}
+
+h4 {
+    color: $text;
+    font-size: 1.25em;
+    font-weight: 350;
+    margin: 0;
+}
+
+p {
+    color: $text;
+    font-size: 1em;
+    font-weight: 350;
+    margin: 0;
+}
+
+
 // No JS styles
 .no-js {
     #experience-timeline {
@@ -103,24 +125,16 @@ body {
             margin-bottom: 10px;
 
             h3 {
-                font-size: 1.5em;
-                font-weight: 300;
                 color: $block-heading;
                 display: inline-block;
-                margin: 0;
             }
 
             h4 {
-                font-size: 1.2em;
-                font-weight: 300;
                 color: $block-heading;
                 margin: 0 0 15px 0;
             }
 
             p {
-                color: $text;
-                font-size: 0.9em;
-                margin: 0;
             }
         }
 
@@ -276,7 +290,7 @@ footer {
 
     li {
         display: inline-block;
-        font-size: 1.25em;
+        font-size: 1em;
         list-style: none;
     }
 
@@ -437,8 +451,6 @@ footer {
 
     p {
         text-align: left;
-        color: $text;
-        margin: 0;
     }
 
     .personal-info {
@@ -515,25 +527,12 @@ footer {
     text-align: left;
 
     h3 {
-        font-size: 2em;
         font-weight: 500;
-        color: $block-heading;
         display: inline-block;
-        margin: 0;
     }
 
     h4 {
-        font-size: 1.5em;
-        font-weight: 400;
-        color: $text;
         margin: 0 0 15px 0;
-    }
-
-    p {
-        color: $text;
-        margin: 0;
-        font-size: 1em;
-        font-weight: 400;
     }
 }
 
@@ -568,7 +567,7 @@ footer {
     position: absolute;
     left: 0;
     top: 10px;
-    font-weight: 300;
+    font-weight: 350;
     color: $base-color;
 }
 
@@ -595,7 +594,6 @@ footer {
     text-align: left;
 
     h3 {
-        font-size: 1.5em;
         font-weight: 500;
         float: left;
         margin: 0;
@@ -608,18 +606,14 @@ footer {
     }
 
     h4 {
-        font-size: 1.2em;
-        font-weight: 400;
-        color: $text;
         clear: both;
         margin: 0 0 15px 0;
     }
 
-    p, ul {
+    ul {
         margin: 0;
         color: $text;
         font-size: 1em;
-        font-weight: 350;
     }
 
     ul {
@@ -680,31 +674,26 @@ footer {
 
 
     h3 {
-        font-size: 1.5em;
-        font-weight: 400;
         color: $block-heading;
-        margin: 0;
+        font-weight: 500;
+        font-size: 1.25em;
     }
 
     h4 {
-        font-size: 1.2em;
-        font-weight: 300;
         color: $text;
+        font-size: 1em;
         margin: 0 0 5px 0;
     }
 
     p {
-        color: $text;
-        font-size: 1em;
         margin: 0;
-        font-weight: 300;
     }
 
     .paper-abstract {
     }
 
     .paper-authors {
-        margin: 0 0 5px 0;
+        margin: 0 0 10px 0;
     }
 
     a {
@@ -769,7 +758,7 @@ footer {
         border-radius: 20px;
         list-style: none;
         cursor: default;
-        font-size: 1.2em;
+        font-size: 1.25em;
     }
 }
 
@@ -799,11 +788,9 @@ footer {
     h3 {
         font-weight: 500;
         margin: 0 0 15px 0;
-        color: $block-heading;
     }
 
     h4 {
-        color: $text;
         clear: both;
         font-weight: 500;
         margin: 0 0 15px 0;
@@ -812,7 +799,7 @@ footer {
     p, ul {
         margin: 0 0 15px 0;
         color: $text;
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     ul {
@@ -925,7 +912,7 @@ footer {
         }
 
         h2 {
-            font-size: 1.3em;
+            font-size: 1.25em;
         }
 
         a {
@@ -974,11 +961,11 @@ footer {
         }
 
         h2 {
-            font-size: 1em;
+            font-size: 1.25em;
         }
 
         a {
-            font-size: 0.9em;
+            font-size: 1em;
             padding: 5px 10px;
         }
     }

@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Anna Vorontsova | CV </title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="scss/styles.scss" rel="stylesheet">
 </head>
 
 <body>
@@ -39,18 +40,16 @@
             <li>
                 <a href="#skills">Skills</a>
             </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
         </ul>
     </header>
     <!-- End header -->
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+
+            <h1>Anna Vorontsova</h1>
+            <h2>Data Scientist / AI Researcher, Computer Vision</h2>
+            <a href="Resume_AnnaVorontsova.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -66,16 +65,25 @@
     <!-- End #lead -->
 
     <div id="about">
+        <h2 class="heading">About Me</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                <div class="personal-info col-md-4">
+                    <div class="personal-image">
+                        <img src="images/me.png"/>
+                    </div>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        I am a research scientist at Samsung Research, Spatial AI. I received an M.Sc. in Data 
+                        Science, and a bachelor's degree in Applied Mathematics from one of the best Russian 
+                        universities. 
+                        For 4,5 years at Samsung Research, I have been working on various tasks related to 
+                        2D and 3D computer vision. Overall, I have almost 6 years of 
+                        both industrial and research experience, focusing on <b>computer vision</b> 
+                        throughout my career. I have co-authored a number of research papers accepted to 
+                        top-tier conferences and have hands-on experience with various deep learning 
+                        <b>(CNN, RNN)</b> models and frameworks <b>(PyTorch, Tensorflow)</b>.
                     </p>
                 </div>
             </div>
@@ -86,29 +94,45 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="Oct 2018 – now">
+                <h3>Samsung Research</h3>
+                <h4>AI Researcher, 2D/3D Computer Vision</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Developed state-of-the-art algorithms addressing 2D and 3D computer vision tasks: SLAM,
+                    visual and sensor-based localization, 3D reconstruction of indoor scenes, depth estimation,
+                    2D and 3D object detection. 
+
+                    Formulated scientific hypotheses and conducted experiments to prove them. Wrote a number 
+                    of academic papers accepted to top-tier CV and robotics conferences such as CVPR, ECCV, 
+                    WACV, IROS. Overall, contributed to 16 papers. Owned international patents on technical 
+                    inventions. 
+
+                    Developed demos and PoCs on visual odometry, visual indoor navigation,
+                    fruit and vegetable weight measurement based on RGB-D data. Collected, labeled 
+                    and prepared data for prototyping and research purposes: visual navigation, 
+                    3D reconstruction of indoor scenes, visual analytics for retail. 
+
+                    Mastered all kinds of writing: academic manuscripts, annual reports, patents, tasks 
+                    for data annotators, documentation, and internal guides. 
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="June 2017 – Oct 2018">
+                <h3>Rambler&Co</h3>
+                <h4>Research intern / Junior Data Scientist, Computer Vision</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Contributed to a project on cinema visitor monitoring based on video surveillance data. 
+                    Developed algorithms based on deep neural networks (segmentation, classification, detection, 
+                    tracking). Collected, labeled, and prepared training data. Conducted experiments and 
+                    presented the results in the form of reports and slides. 
+
+                    What started as a small toy project run by one intern (me), was considered so successful 
+                    that it convinced top management to create a computer vision department, mostly to develop 
+                    and maintain the cinema monitoring system. The implemented solution was used to collect 
+                    statistics in over 700 cinema halls in Russia.
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
         </div>
     </div>
     <!-- End #experience -->
@@ -116,68 +140,281 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>HSE University</h3>
+            <span class="education-date">Sep 2018 - June 2020</span>
+            <h4>Master of Data Science</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                Completed courses: Bayesian Networks, Functional Analysis,
+                Convex Optimization, Autonomous Driving
+                <br>
+                Thesis: Visual Odometry with Ego-motion Sampling
+                <br>
+                Average grade: 4.67 / 5. 
             </p>
         </div>
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>Yandex School of Data Analysis </h3>
+            <span class="education-date">Sep 2018 - June 2020</span>
+            <h4>Data Science, Advanced track</h4>
+            <p>
+                
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>HSE University</h3>
+            <span class="education-date">Sep 2014 - June 2018</span>
+            <h4>Bachelor of Applied Mathematics, Machine Learning and Applications track</h4>
+            <p>
+                Completed courses: Machine Learning, Deep Learning, 
+                Statistical Learning Theory, NLP, Computer Vision, Reinforcement Learning,
+                Bayesian ML, Advanced Algorithms and Data Structures,
+                Probability Theory and Statistics
+                <br>
+                Thesis: Person Re-identification Based on Visual Attributes
+            </p>
         </div>
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Projects & Publications</h2>
         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
+                
+                <div class="project">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/projects/fcaf3d.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3>FCAF3D: Fully Convolutional Anchor-Free 3D Object Detection</h3>
+                        <h4>2022 European Conference on Computer Vision (ECCV) </h4>
+                        <p class="paper-authors">D. Rukhovich, <b>A. Vorontsova</b>, A. Konushin </p>
+                        <p class="paper-abstract">
+                            FCAF3D is a first-in-class fully convolutional anchor-free indoor 3D object detection method. 
+                            FCAF3D can handle large-scale scenes with minimal runtime through a single feed-forward pass. 
+                            Moreover, we propose a novel parametrization of oriented bounding boxes that consistently 
+                            improves detection accuracy. State-of-the-art on ScanNet, SUN RGB-D, and S3DIS datasets.
                         </p>
-                        <a href="#">View Project</a>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/anonymous-fcaf3d/anonymous-fcaf3d" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6356_ECCV_2022_paper.php" target="_blank">Paper</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="project">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/projects/contours.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3>Contour-based Interactive SegmentationContour-based Interactive Segmentation</h3>
+                        <h4>arXiv preprint arXiv:2302.06353 </h4>
+                        <p class="paper-authors">D. Galeev, P. Popenova, <b>A. Vorontsova</b>, A. Konushin </p>
+                        <p class="paper-abstract">
+                            Interactive segmentation can be used to speed up and simplify image editing and labeling. 
+                            Most approaches use clicks, which might be inconvenient when selecting small objects. 
+                            We present a first-in-class contour-based interactive segmentation approach and demonstrate 
+                            that a single contour provides the same accuracy as multiple clicks, thus reducing the 
+                            number of interactions.
                         </p>
-                        <a href="#">View Project</a>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="https://arxiv.org/abs/2302.06353" target="_blank">Paper</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/projects/floorplan.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+
+                        <h3>Floorplan-Aware Camera Poses RefinementFloorplan-Aware Camera Poses Refinement</h3>
+                        <h4>2022 International Conference on Intelligent Robots and Systems (IROS)</h4>
+                        <p class="paper-authors">A. Sokolova, F. Nikitin, <b>A. Vorontsova</b>, A. Konushin </p>
+                        <p class="paper-abstract">
+                            A technical floorplan depicts walls, partitions, and doors, being a valuable source 
+                            of information about the general scene structure. We propose a novel floorplan-aware 
+                            3D reconstruction algorithm that extends bundle adjustment, and show that using a 
+                            floorplan improves 3D reconstruction quality on the Redwood dataset and our self-captured 
+                            data.
+                        </p>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="https://arxiv.org/abs/2210.04572" target="_blank">Paper</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/projects/imvoxelnet.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+
+                        <h3>ImVoxelNet: Image to Voxels Projection for Monocular and Multi-view General-purpose 3D Object Detection</h3>
+                        <h4>2022 Winter Conference on Applications of Computer Vision (WACV)</h4>
+                        <p class="paper-authors">D. Rukhovich, <b>A. Vorontsova</b>, A. Konushin </p>
+                        <p class="paper-abstract">
+                            ImVoxelNet is a fully convolutional 3D object detection method that operates in 
+                            monocular and multi-view modes. ImVoxelNet accepts an arbitrary number of RGB 
+                            images with camera poses as inputs. General-purpose: state-of-the-art results 
+                            on both outdoor (KITTI, monocular and nuScenes,  multi-view) and indoor (SUN RGB-D, 
+                            monocular and ScanNet, multi-view) datasets.
+                        </p>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="https://openaccess.thecvf.com/content/WACV2022/html/Rukhovich_ImVoxelNet_Image_to_Voxels_Projection_for_Monocular_and_Multi-View_General-Purpose_WACV_2022_paper" target="_blank">Paper</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/projects/gp2.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+
+                        <h3>Single-Stage 3D Geometry-Preserving Depth Estimation Model Training on Dataset Mixtures with Uncalibrated Stereo Data</h3>
+                        <h4>2022 Conference on Computer Vision and Pattern Recognition (CVPR)</h4>
+                        <p class="paper-authors">N. Patakin, <b>A. Vorontsova</b>, M. Artemyev, A. Konushin </p>
+                        <p class="paper-abstract">
+                            GP2 is a General-Purpose and Geometry-Preserving scheme of training single-view 
+                            depth estimation models. GP2 allows training on a mixture of a small part of 
+                            geometrically correct depth data and voluminous stereo data. State-of-the-art 
+                            results in the general-purpose geometry-preserving single-view depth estimation.
+                            
+                        </p>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Patakin_Single-Stage_3D_Geometry-Preserving_Depth_Estimation_Model_Training_on_Dataset_Mixtures_CVPR_2022_paper" target="_blank">Paper</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/projects/discoman.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+
+                        <h3>DISCOMAN: Dataset of Indoor Scenes for Odometry, Mapping and Navigation</h3>
+                        <h4>2019 International Conference on Intelligent Robots and Systems (IROS)</h4>
+                        <p class="paper-authors">P. Kirsanov, A. Gaskarov, F. Konokhov, K. Sofiiuk, <b>A. Vorontsova</b>, I. Slinko, D. Zhukov, S. Bykov, O. Barinova, A. Konushin </p>
+                        <p class="paper-abstract">
+                            A synthetic dataset for training and benchmarking semantic SLAM. Contains 200 
+                            sequences of 3000-5000 frames (RGB images generated using physically-based 
+                            rendering, depth, IMU) and ground truth occupancy grids. In addition, we establish
+                             baseline results for SLAM, mapping, semantic and panoptic segmentation on our dataset.
+                        </p>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="https://arxiv.org/abs/1909.12146" target="_blank">Paper</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/projects/robustness.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+
+                        <h3>Measuring Robustness of Visual SLAM</h3>
+                        <h4>2019 International Conference on Machine Vision Applications (MVA)</h4>
+                        <p class="paper-authors">D. Prokhorov, D. Zhukov, O. Barinova, <b>A. Vorontsova</b>, A. Konushin </p>
+                        <p class="paper-abstract">
+                            A feasibility study of RGB-D SLAM. We extensively evaluate the popular ORBSLAM2 
+                            on several benchmarks, perform statistical analysis of the results, and find 
+                            correlations between the metric values and the attributes of the trajectories. 
+                            While the accuracy is high, robustness is still an issue.
+                        </p>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="https://arxiv.org/abs/1910.04755" target="_blank">Paper</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/projects/motionmaps.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+
+                        <h3>Scene Motion Decomposition for Learnable Visual Odometry</h3>
+                        <h4>SEMNAV 2019 : CVPR'19 Workshop on Deep Learning for Visual Navigation</h4>
+                        <p class="paper-authors">I. Slinko, <b>A. Vorontsova</b>, F. Konokhov, O. Barinova, A. Konushin </p>
+                        <p class="paper-abstract">
+                            Instead of ego-motion estimation, we address a dual problem of estimating the 
+                            motion of a scene w.r.t a static camera. Using optical flow and depth, we 
+                            calculate the motion of each point of a scene in terms of 6DoF and create motion
+                             maps, each one addressing a single degree of freedom. Such a decomposition 
+                             improves accuracy over naive stacking of depth and optical flow.
+                            
+                        </p>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="https://arxiv.org/abs/1907.07227" target="_blank">Paper</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
             </div>
@@ -188,56 +425,28 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>PyTorch</li>
+            <li>Tensorflow</li>
+            <li>OpenCV</li>
+            <li>Open3D</li>
+            <li>scikit-learn</li>
+            <li>NumPy</li>
+            <li>SciPy</li>
+            <li>Pandas</li>
+            <li>Docker</li>
+            <li>Git</li>
+
         </ul>
     </div>
     <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2023</span> Anna Vorontsova
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,22 +457,16 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/highrut" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/anna-vorontsova-893411114/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
+                        <!-- <li>
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
+                        </li> -->
                         <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://scholar.google.com/citations?user=HiVoQCIAAAAJ&hl=ru" target="_blank"><img src="images/google-scholar.png" class="fa" aria-hidden="true"></a>
                         </li>
                     </ul>
                 </div>

@@ -650,6 +650,10 @@ footer {
     border-radius: 20px;
 }
 
+.project:hover {
+    background: linear-gradient(45deg, rgba($accent-color, 0.1), rgba($complementary-color, 0.1));
+}
+
 .project-image {
     float: left;
     min-height: 280px;
@@ -659,6 +663,7 @@ footer {
     align-items: center;
     img {
         max-width: 300px;
+        margin-left: 10px;
     }
 }
 
@@ -875,6 +880,10 @@ footer {
         p {
             text-align: left;
         }
+    }
+
+    .project {
+        min-height: 370px;
     }
 
 }

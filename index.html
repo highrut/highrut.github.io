@@ -82,7 +82,7 @@
                         focusing on <b>2D and 3D computer vision</b> throughout my career.
                         I co-authored 15+ research papers accepted to
                         top-tier conferences, prepared a number of technical patents, and gained hands-on experience with
-                        various deep learning <b>(CNN, RNN, Transformer)</b> models and frameworks <b>(PyTorch, Tensorflow)</b>.
+                        various deep learning models <b>(CNN, RNN, Transformer)</b> and frameworks <b>(PyTorch, Tensorflow)</b>.
                     </p>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                     Generated data for training and benchmarking developed methods.
 
                     Contributed to documentation on AI Safety,
-                    wrote customer documentation and internal guides.
+                    wrote customer manuals and internal guides.
                 </p>
             </div>
 
@@ -119,12 +119,12 @@
                     Formulated scientific hypotheses and conducted experiments to prove them. Wrote a number 
                     of academic papers accepted to top-tier CV and robotics conferences such as CVPR, ECCV, 
                     WACV, IROS. Overall, contributed to 16 papers. <a href="https://neurips.cc/Conferences/2022/DatasetBenchmarkProgramCommittee">Outstanding Reviewer</a> at NeurIPS 2022
-                    Datasets and Benchmarks track. Own international patents on technical inventions.
+                    Datasets and Benchmarks track. Own several international patents on technical inventions.
 
-                    Developed demos and PoCs on visual odometry, visual indoor navigation,
-                    fruit and vegetable weight measurement based on RGB-D data. Collected, labeled 
-                    and prepared data for prototyping and research purposes: visual navigation, 
-                    3D reconstruction of indoor scenes, visual analytics for retail. 
+                    Developed demos and PoCs: visual odometry, visual indoor navigation,
+                    object weight measurement based on RGB-D data. Collected, labeled
+                    and prepared data for prototyping and research purposes: visual navigation,
+                    3D reconstruction of indoor scenes, visual analytics for retail.
 
                     Mastered all kinds of writing: academic manuscripts, annual reports, patents, tasks 
                     for data annotators, documentation, and internal guides. 
@@ -204,6 +204,38 @@
 
                 <div class="project">
                     <div class="project-image">
+                        <img src="images/projects/unidet3d.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>UniDet3D: One Transformer for Unified Point Cloud Segmentation </h3>
+                        <h4>2024 Conference on Computer Vision and Pattern Recognition (CVPR) </h4>
+                        <p class="paper-authors">M. Kolodiazhnyi, <b>A. Vorontsova</b>, A. Konushin, D. Rukhovich </p>
+                        <p class="paper-abstract">
+                            UniDet3D is a 3D object detection model trained on a mixture of indoor
+                            datasets. By unifying various label spaces, UniDet3D learns a strong
+                            representation across multiple datasets through a supervised joint training scheme, thus
+                            achieving generalization in various indoor environments. 
+                            It outperforms existing 3D object detection methods in 6 indoor benchmarks.
+                        </p>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="https://arxiv.org/abs/2409.04234" target="_blank">Paper</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/filaPro/unidet3d" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <div class="project">
+                    <div class="project-image">
                         <img src="images/projects/oneformer3d.png" />
                     </div>
                     <!-- End .project-image -->
@@ -212,7 +244,7 @@
                         <h4>2024 Conference on Computer Vision and Pattern Recognition (CVPR) </h4>
                         <p class="paper-authors">M. Kolodiazhnyi, <b>A. Vorontsova</b>, A. Konushin, D. Rukhovich </p>
                         <p class="paper-abstract">
-                            We present OneFormer3D, a unified, simple, and effective model jointly solving
+                            OneFormer3D is a unified, simple, and effective model jointly solving
                             semantic, instance, and panoptic segmentation of 3D point clouds. The model
                             is trained end-to-end in a single run with panoptic annotations, and achieves
                             top performance on all three tasks simultaneously, thereby setting a new state-of-the-art
@@ -299,7 +331,7 @@
                         <h4>2024 International Conference on Image Processing (ICIP) </h4>
                         <p class="paper-authors">A. Sokolova, <b>A. Vorontsova</b>, B. Gabdullin, A. Limonov </p>
                         <p class="paper-abstract">
-                            We propose FAWN, a modification of truncated signed distance function (TSDF)
+                            FAWN is a modification of truncated signed distance function (TSDF)
                             reconstruction methods. FAWN takes the standard scene structure in account by detecting
                             walls and floor in a scene, and penalizing their normals for deviating from the horizontal
                             and vertical directions. We add FAWN to state-of-the-art TSDF reconstruction
@@ -356,9 +388,9 @@
                         <h4>2024 Winter Conference on Applications of Computer Vision (WACV) </h4>
                         <p class="paper-authors">M. Kolodiazhnyi, D. Rukhovich, <b>A. Vorontsova</b>, A. Konushin </p>
                         <p class="paper-abstract">
-                            Most 3D instance segmentation methods are bottom-up and typically include 
-                            resource-exhaustive post-processing. We address 3D instance segmentation with a TD3D: 
-                            the pioneering cluster-free, fully-convolutional approach trained end-to-end. 
+                            Most 3D instance segmentation methods are bottom-up and typically include
+                            resource-exhaustive post-processing. TD3D is a pioneering cluster-free,
+                            fully-convolutional approach trained end-to-end.
                             This is the first top-down method outperforming bottom-up approaches in a 3D domain. 
                             It demonstrates outstanding accuracy while being much up to 2.6x faster on inference 
                             than the current state-of-the-art grouping-based approaches. 
@@ -388,7 +420,7 @@
                         <h4>2023 International Conference on Image Processing (ICIP) </h4>
                         <p class="paper-authors">N. Patakin, D. Senushkin, <b>A. Vorontsova</b>, A. Konushin </p>
                         <p class="paper-abstract">
-                            We present the first neural inverse rendering approach capable of processing
+                            NeGIL the first neural inverse rendering approach capable of processing
                             inter-reflections. We formulate a novel neural global illumination model, which
                             estimates both direct environment light and indirect light as a surface light field,
                             and build a Monte Carlo differentiable rendering framework. Our framework effectively
@@ -410,7 +442,7 @@
                         <h4>2023 International Conference on Image Processing (ICIP) </h4>
                         <p class="paper-authors">D. Rukhovich, <b>A. Vorontsova</b>, A. Konushin </p>
                         <p class="paper-abstract">
-                            We introduce a fast fully-convolutional 3D object detection model trained
+                            TR3D is a fast fully-convolutional 3D object detection model trained
                             end-to-end, that achieves state-of-the-art results on the standard benchmarks.
                             Moreover, to take advantage of both point cloud and RGB inputs, we propose an
                             early fusion of 2D and 3D features. The versatile and efficient fusion module
@@ -676,7 +708,9 @@
             <li>Tensorflow</li>
             <li>OpenCV</li>
             <li>Open3D</li>
+            <li>blenderproc</li>
             <li>scikit-learn</li>
+            <li>ultralytics</li>
             <li>NumPy</li>
             <li>SciPy</li>
             <li>Pandas</li>
@@ -692,7 +726,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2024</span> Anna Vorontsova
+                        Copyright &copy; <span id="current-year">2025</span> Anna Vorontsova
                     </p>
                 </div>
                 <div class="col-sm-2 top">
